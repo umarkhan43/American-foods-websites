@@ -1,0 +1,886 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grand Hotel', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+p {
+    color: #3d5f00;
+}
+
+.topbar {
+    width: 100%;
+    height: 10vh;
+    background: #3d5f00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 3%;
+
+
+
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    background: transparent;
+    color: #fff;
+
+}
+
+button[type="submit"] {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: -30px;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+.logo {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.login p {
+    color: #fff;
+}
+
+.fa-heart,
+.fa-cart-shopping {
+
+    color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    height: 60px;
+    padding: 0 20px;
+    background-position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 0 13%;
+    position: sticky;
+
+
+}
+
+.navbar-scrolled {
+    background-color: #091b27;
+    /* new background color */
+    /* other styles here */
+    color: #f6f1f1;
+}
+
+.navbar-scrolled .navbar-link {
+    color: #fff;
+}
+
+.navbar-scrolled span {
+    color: #f13e4b;
+}
+
+
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+    color: #3d5f00;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #212529;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.navbar-link:hover {
+    color: rgb(86, 83, 78);
+    text-decoration: underline;
+    text-underline-offset: 1em;
+}
+
+.navbar-cart {
+    margin-left: auto;
+}
+
+.navbar-cart-icon {
+    font-size: 1.2rem;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+
+/* Navbar End */
+
+
+/* Banner End */
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    background: url("../Assets//banner-background.png");
+    background-size: 100% 140%;
+    background-repeat: no-repeat;
+}
+
+.heading h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-top: 15%;
+
+
+}
+
+.content {
+    padding-left: 8%;
+}
+
+.heading h4 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+hr {
+    width: 30%;
+}
+
+.content p {
+    font-size: 1.4rem;
+  margin-left: -.5rem;
+}
+
+.my-hr {
+    border-top: 3px solid #3d5f00;
+    font-weight: bold;
+    color: #3d5f00;
+}
+
+.banner__button {
+    display: flex;
+    gap: 2rem;
+}
+
+.order__now__btn {
+    background-color: #3d5f00;
+    width: 15rem;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+    margin-left: 8%;
+
+
+}
+
+.left__arrow__btn {
+    background-color: #3d5f00;
+    width: 7rem;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+    margin-left: 1%;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+/* Banner End */
+
+/* About Start */
+.heading__about h1 {
+    text-align: center;
+    font-weight: 800;
+    opacity: 20%;
+    font-size: 8rem;
+}
+
+.heading__about h2 {
+    position: absolute;
+    margin-top: -6%;
+    text-align: center;
+    margin-left: 40%;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.heading__about p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.about__content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.about__btn {
+    display: flex;
+    gap: 2rem;
+}
+
+.about__btn_read {
+    background-color: #3d5f00;
+    width: 15rem;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+
+
+
+}
+
+.about__arrow__btn {
+    background-color: #3d5f00;
+    width: 7rem;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+    margin-left: 1%;
+    text-align: center;
+
+
+}
+
+.image__section img {
+    width: 20rem;
+    height: 25vh;
+}
+
+
+/* About End */
+
+
+/* Services End */
+.buy__now {
+    width: 10rem;
+    height: 100px;
+}
+
+.servise__section {
+    margin: 2rem;
+}
+
+.price {
+    font-weight: 700;
+}
+
+.serivse__img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* Services End */
+
+/* Discount Start */
+.discount {
+    width: 100%;
+    height: 59vh;
+    background: url("../Assets//discoung-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 1rem;
+
+}
+
+.discover__now {
+    background-color: #3d5f00;
+    width: 15rem;
+    height: 7vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+
+
+}
+
+.discount {
+    padding: 7rem;
+
+}
+
+.special h2 {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 600;
+}
+
+.sales h1 {
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+    font-weight: 800;
+}
+
+.sales h2 {
+    text-transform: uppercase;
+    letter-spacing: .8rem;
+}
+
+
+/* Discount End */
+
+
+
+
+/* Pricing Start */
+
+
+.card__container {
+
+    display: flex;
+    color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__content {
+    width: 20%;
+    height: 50vh;
+    background-color: #c8c1c1;
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.card__heading {
+    background-color: #5a8804;
+    height: 20vh;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.product__info {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy__now__btn {
+    background-color: #3d5f00;
+    width: 8rem;
+    height: 5vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+
+
+}
+
+.card__heading h6 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.card__content .product__info p {
+    text-transform: capitalize;
+}
+
+/* Pricing End */
+
+
+/* DiscountB Satart */
+.discountb {
+    background: url("../Assets//discount2-background.png");
+    width: 100%;
+    height: 50vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+    padding: 3rem;
+    margin: 1rem;
+}
+
+
+/* DiscountB End */
+
+/* Blog Start */
+
+.blogs {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.bloges {
+    margin: 2rem;
+}
+
+.discover__now {
+    background-color: #3d5f00;
+    width: 10rem;
+    height: 5vh;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 30px 2px 30px 1px;
+
+
+}
+
+.blog__two {
+    background-color: #f1f1f1;
+}
+
+.bloges h1,
+p,
+.discover__now {
+    margin: 2rem;
+}
+
+
+
+
+/* Blog End */
+
+/* Footer Start */
+
+
+.footer {
+    width: 100%;
+    height: 60vh;
+    background: url("../Assets//footer-background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.footer__section {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.uni__margin {
+    margin: 1rem;
+}
+
+.company__name h3 {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+
+.company__name h4 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: .4rem;
+    text-align: center;
+}
+
+.social__links {
+    color: #fff;
+    font-size: 1.5rem;
+
+
+}
+
+.fa {
+    margin: 1rem;
+
+}
+
+.website__links {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+
+/* Footer End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+
+    /* Navbar Start */
+    .topbar {
+        display: none;
+    }
+
+
+    .navbar {
+        flex-wrap: wrap;
+        background-color: #3d5f00;
+        height: auto;
+    }
+
+    .navbar-logo {
+        order: 2;
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .navbar-menu {
+        order: 3;
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        background-color: #3d5f00;
+
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+        padding: 20px 0;
+    }
+
+    .navbar-menu.show {
+        display: flex;
+    }
+
+    .navbar-item {
+        margin: 10px 0;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-toggle {
+        order: 1;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .navbar-toggle:focus {
+        outline: none;
+    }
+
+    .navbar-toggle-icon {
+        display: block;
+        width: 100%;
+        height: 3px;
+        background-color: #000;
+        border-radius: 3px;
+        position: relative;
+
+        transition: transform 0.2s ease-out;
+    }
+
+    .navbar-toggle-icon:before,
+    .navbar-toggle-icon:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #212529;
+        border-radius: 3px;
+        position: absolute;
+        transition: transform 0.2s ease-out;
+    }
+
+    .navbar-toggle-icon:before {
+        top: -10px;
+    }
+
+    .navbar-toggle-icon:after {
+        bottom: -10px;
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon {
+        transform: rotate(45deg);
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon:before {
+        transform: rotate(90deg) translate(8px, 8px);
+    }
+
+    .navbar-toggle.open .navbar-toggle-icon:after {
+        transform: rotate(-90deg) translate(8px, -8px);
+    }
+
+    /* Navbar End */
+    /* Banner Start */
+    .banner {
+        background: none;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .heading h1,
+    h4 {
+        text-align: center;
+    }
+
+    .content p {
+        text-align: center;
+    }
+
+    .banner__button {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Banner End */
+
+    /* About Start */
+    .heading__about h2 {
+        display: none;
+    }
+
+    .heading__about h1 {
+        opacity: 50%;
+        font-size: 4rem;
+        text-align: center;
+
+    }
+
+    .about__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image__section img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+    }
+
+    .about__heading {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__heading p {
+        text-align: center;
+    }
+
+
+    .headingg {
+        display: none;
+    }
+
+    .imageA {
+        display: none;
+    }
+
+
+    /* About End */
+
+
+    /* Discount Start */
+    .discount {
+        background: none;
+    }
+
+    .special h2 {
+        text-align: center;
+        opacity: 60%;
+
+    }
+
+    .sales h1 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+        opacity: 70%;
+        width: 100%;
+    }
+
+    .sales h2 {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+        opacity: 90%;
+        width: 100%;
+    }
+
+    .sales p {
+        text-align: justify;
+    }
+
+    .discover__now {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    /* Discount End */
+
+
+    /* Pricing Start */
+    .card__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .card__content {
+        width: 80%;
+        height: auto;
+    }
+
+    /* Pricing End */
+
+    /* Discount2 Start */
+    .discountb {
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    /* Discount2 End */
+    /* Blog Start */
+.blogs{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+    /* Blog End */
+    /* Servis Start */
+.content__section .image__section img{
+    order: 1;
+}
+    /* Servis End */
+  
+    /* About Start */
+
+    /* About End */
+}
